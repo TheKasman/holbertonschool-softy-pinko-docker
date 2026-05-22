@@ -30,3 +30,16 @@ docker run -p 9000:9000 -it --rm --name softy-pinko-front-end-task3 softy-pinko-
 `docker compose up`
 
 One builds, one runs. Website works like a charm
+
+## Task 5 -
+`docker compose build
+docker compose up`
+
+Then visit http://localhost:80 now instead of localhost:8000
+
+## Task 6 -
+`copypaste the line of code in 2-api-servers.txt then do
+docker compose up`
+
+visit the webpage, and refresh the page multiple times
+NOTE: I originally had it as backend and frontend in the previous questions but for the brief i've fixed it so it matches the brief here.
