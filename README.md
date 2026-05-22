@@ -22,5 +22,11 @@ docker run -p 5252:5252 -it --rm --name softy-pinko-back-end-task3 softy-pinko-b
 terminal 2
 `docker build -f ./front-end/Dockerfile -t softy-pinko-front-end:task3 ./front-end
 docker run -p 9000:9000 -it --rm --name softy-pinko-front-end-task3 softy-pinko-front-end:task3`
+
 (go open the localhost page again on the same localhost address as before and notice how it interacts with both the front and back ends in the CLI)
 
+## Task 4 -
+`docker compose build`
+`docker compose up`
+
+One builds, one runs. Website works like a charm
