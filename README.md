@@ -41,5 +41,6 @@ Then visit http://localhost:80 now instead of localhost:8000
 `copypaste the line of code in 2-api-servers.txt then do
 docker compose up`
 
-visit the webpage, and refresh the page multiple times
+visit the webpage, and refresh the page multiple times, check the terminal to see it swap from backend 1 and 2!
+
 NOTE: I originally had it as backend and frontend in the previous questions but for the brief i've fixed it so it matches the brief here.
